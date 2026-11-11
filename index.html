@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="NEON GROOVE: descubre DJs, sesiones, eventos, locales y festivales de música electrónica y urbana.">
+    <meta name="description" content="NEON GROOVE: descubre DJs, sesiones, eventos, locales y festivales de música electrónica y urbana en Madrid.">
     <meta name="theme-color" content="#0b100d">
     <title>NEON GROOVE | La noche tiene otro pulso</title>
 
@@ -24,13 +24,11 @@
             </a>
 
             <nav class="main-nav" aria-label="Navegación principal">
-                <!-- Apartados visuales del menú; pendientes de enlazar a sus páginas o secciones. -->
-                <span class="nav-item nav-item-active">DJS</span>
-                <span class="nav-item">HORARIOS</span>
-                <span class="nav-item">CONTACTO</span>
-                <span class="nav-item">EVENTOS</span>
-                <span class="nav-item">LOCALES</span>
-                <span class="nav-item">FESTIVALES</span>
+                <a class="nav-item nav-item-active" href="#inicio" title="Ir al inicio">INICIO</a>
+                <a class="nav-item" href="#djs" title="Ver DJs destacados">DJS</a>
+                <a class="nav-item" href="#video-set" title="Ver sesión en directo">SESIÓN DIRECTO</a>
+                <a class="nav-item" href="#sobre-nosotros" title="Conoce el proyecto">NOSOTROS</a>
+                <a class="nav-item" href="#contacto" title="Información de contacto">CONTACTO</a>
             </nav>
 
             <div class="header-status">
@@ -46,7 +44,7 @@
                 <p class="eyebrow"><span class="eyebrow-line"></span> CULTURA CLUB · MÚSICA · COMUNIDAD</p>
                 <h1 id="hero-title">La noche tiene<br> <span>otro pulso.</span></h1>
                 <p class="hero-description">
-                    Descubre quién pone el ritmo, encuentra tu próxima sesión y conecta con la escena electrónica y urbana.
+                    Descubre quién pone el ritmo, encuentra tu próxima sesión y conecta con la escena electrónica y urbana en Madrid.
                     La música empieza mucho antes de entrar en la pista.
                 </p>
                 <div class="hero-meta">
@@ -74,7 +72,7 @@
             <div class="hero-bottom-line" aria-hidden="true"></div>
         </section>
 
-        <section class="featured section-wrap" aria-labelledby="featured-title">
+        <section id="djs" class="featured section-wrap" aria-labelledby="featured-title">
             <div class="section-heading page-enter delay-1">
                 <div>
                     <p class="eyebrow"><span class="eyebrow-line"></span> SELECCIÓN SEMANAL</p>
@@ -88,7 +86,7 @@
                     <div class="dj-image-wrap">
                         <img
                             class="dj-image"
-                            src="https://images.unsplash.com/photo-1571266028243-d220c9c3b0a5?auto=format&fit=crop&w=1100&q=85"
+                            src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=1100&q=85"
                             alt="Artista pinchando música electrónica frente a una cabina iluminada"
                             loading="lazy">
                         <span class="dj-number">01</span>
@@ -108,6 +106,7 @@
                     </div>
                 </article>
 
+                <!-- DJ 2 -->
                 <article class="dj-card page-enter delay-2">
                     <div class="dj-image-wrap">
                         <img
@@ -127,11 +126,12 @@
                         <p class="dj-description">Ritmos urbanos, clásicos que encienden la pista y las novedades del momento.</p>
                         <details class="dj-more">
                             <summary>Ver más <span aria-hidden="true">↗</span></summary>
-                            <p>Combina reggaetón, latin house y sonidos urbanos. Sus sets están pensados para cantar, bailar y no quedarse quieto.</p>
+                            <p>Combina reggaetón, latin house y sonidos urbanos. Sus sesiones están pensadas para cantar, bailar y disfrutar de la noche madrileña.</p>
                         </details>
                     </div>
                 </article>
 
+                <!-- DJ 3 -->
                 <article class="dj-card page-enter delay-3">
                     <div class="dj-image-wrap">
                         <img
@@ -151,18 +151,35 @@
                         <p class="dj-description">Percusión envolvente, melodías cálidas y house con identidad propia.</p>
                         <details class="dj-more">
                             <summary>Ver más <span aria-hidden="true">↗</span></summary>
-                            <p>Su propuesta viaja entre afro house y deep house, con mezclas orgánicas que construyen una atmósfera hipnótica.</p>
+                            <p>Su propuesta viaja entre afro house y deep house, con mezclas orgánicas que construyen una atmósfera hipnótica en la pista.</p>
                         </details>
                     </div>
                 </article>
             </div>
         </section>
 
-        <section class="about-section" aria-labelledby="about-title">
+        <!-- SECCIÓN DE VÍDEO-->
+        <section id="video-set" class="section-wrap" style="padding: 40px 0 90px;" aria-labelledby="video-title">
+            <div class="section-heading page-enter">
+                <div>
+                    <p class="eyebrow"><span class="eyebrow-line"></span> SESIÓN EN DIRECTO</p>
+                    <h2 id="video-title">Vibra con el <span>techno en directo.</span></h2>
+                </div>
+                <p class="section-note">Siente la energía de la cabina.<br>Conexión directa con la cultura club.</p>
+            </div>
+            <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 6px; border: 1px solid var(--color-line); background: var(--color-card);">
+                <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" src="https://www.youtube.com/embed/aKj_gfNdRr4" title="Sesión de música electrónica en directo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <p style="margin-top: 20px; color: var(--color-muted); font-size: 13px; line-height: 1.8;">
+                Disfruta de este set en directo que captura la esencia de las sesiones underground. Una muestra perfecta de cómo se vive la música electrónica, el ritmo envolvente de los sintetizadores y la comunión entre el público y el DJ en la pista.
+            </p>
+        </section>
+
+        <section id="sobre-nosotros" class="about-section" aria-labelledby="about-title">
             <div class="about-inner section-wrap page-enter delay-2">
                 <div class="about-kicker">
                     <span class="about-symbol" aria-hidden="true">✳</span>
-                    <span>¿QUÉ ES NEON GROOVE????</span>
+                    <span>¿QUÉ ES NEON GROOVE?</span>
                 </div>
                 <div class="about-content">
                     <h2 id="about-title">Noches que se viven.<br><span>Sonidos que conectan.</span></h2>
@@ -211,7 +228,7 @@
         </div>
 
         <div class="footer-disclaimer section-wrap">
-            <span>Nota: NEON GROOVE es una marca ficticia creada como ejemplo. El teléfono y la dirección indicados corresponden a Sala El Sol, un espacio real de Madrid, y no son la sede de NEON GROOVE.</span>
+            <span>NEON GROOVE es una marca ficticia creada como ejemplo. El teléfono y la dirección indicados corresponden a Sala El Sol, un espacio real de Madrid.</span>
         </div>
 
         <div class="footer-bottom section-wrap">
